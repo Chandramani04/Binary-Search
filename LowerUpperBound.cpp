@@ -4,7 +4,7 @@ using namespace std;
 int main() {
      int arr[] = { 1,4,7,12,12,12,12,12,19,27} ; // sorted array
     int n = sizeof(arr) / sizeof(int) ; 
-    // both upper bound and lower bound functio return address of that index 
+    // both upper bound and lower bound function return address of that index 
     // so to print value we use int* or auto  datatype
 
     auto lb = lower_bound(arr,arr+n ,12) ; // lb function reutrn >=key
